@@ -1,0 +1,75 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  margin-bottom: 20px;
+  background-color: #f0f0f3;
+  padding: 10px; 
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  font-size: 1rem; 
+}
+
+.menu-icon {
+  margin-right: 8px;
+  font-size: 1.5rem;
+  color: #590dd3; 
+}
+
+
+.menu-bar {
+  margin-bottom: 1rem;
+}
+.menu-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+   background-color: #f0f0f3;
+  h3 {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.header-cell {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0.2rem;
+}
+
+.delete-icon {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: rgb(153, 6, 6);
+}
+
+.header-cell .dropdown-toggle {
+  margin-top: 0.5rem;
+}
+
+.text-secondary-custom {
+  color: #590dd3;
+  border: 1px solid gray;
+  background-color: #ddd;
+  border-radius: 12%;
+  padding: 2px;
+ 
+}
+
+.col-width td{
+  width: 180px !important; 
+
+}
+
